@@ -86,6 +86,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CA9B9E3C18F48D6B006E1DBC /* Object */ = {
+			isa = PBXGroup;
+			children = (
+				CA9CA50618F35A2E00E18EC9 /* DNCell.h */,
+				CA9CA50718F35A2E00E18EC9 /* DNCell.m */,
+			);
+			name = Object;
+			sourceTree = "<group>";
+		};
+		CA9B9E3D18F48D72006E1DBC /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CA9CA4E618F3472100E18EC9 /* ViewController.h */,
+				CA9CA4E718F3472100E18EC9 /* ViewController.m */,
+			);
+			name = "View Controller";
+			sourceTree = "<group>";
+		};
+		CA9B9E3E18F48D7A006E1DBC /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				CA9CA4E018F3472100E18EC9 /* AppDelegate.h */,
+				CA9CA4E118F3472100E18EC9 /* AppDelegate.m */,
+			);
+			name = Delegate;
+			sourceTree = "<group>";
+		};
 		CA9CA4C518F3472000E18EC9 = {
 			isa = PBXGroup;
 			children = (
@@ -121,14 +148,9 @@
 		CA9CA4D718F3472000E18EC9 /* DN */ = {
 			isa = PBXGroup;
 			children = (
-				CA9CA4E018F3472100E18EC9 /* AppDelegate.h */,
-				CA9CA4E118F3472100E18EC9 /* AppDelegate.m */,
-				CA9CA4E318F3472100E18EC9 /* Main.storyboard */,
-				CA9CA4E618F3472100E18EC9 /* ViewController.h */,
-				CA9CA4E718F3472100E18EC9 /* ViewController.m */,
-				CA9CA50618F35A2E00E18EC9 /* DNCell.h */,
-				CA9CA50718F35A2E00E18EC9 /* DNCell.m */,
-				CA9CA4E918F3472100E18EC9 /* Images.xcassets */,
+				CA9B9E3E18F48D7A006E1DBC /* Delegate */,
+				CA9B9E3D18F48D72006E1DBC /* View Controller */,
+				CA9B9E3C18F48D6B006E1DBC /* Object */,
 				CA9CA4D818F3472000E18EC9 /* Supporting Files */,
 			);
 			path = DN;
@@ -137,6 +159,8 @@
 		CA9CA4D818F3472000E18EC9 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CA9CA4E918F3472100E18EC9 /* Images.xcassets */,
+				CA9CA4E318F3472100E18EC9 /* Main.storyboard */,
 				CA9CA4D918F3472000E18EC9 /* DN-Info.plist */,
 				CA9CA4DA18F3472100E18EC9 /* InfoPlist.strings */,
 				CA9CA4DD18F3472100E18EC9 /* main.m */,
