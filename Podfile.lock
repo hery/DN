@@ -1,0 +1,13 @@
+PODS:
+  - Reveal-iOS-SDK (1.0.3)
+  - TTTAttributedLabel (1.9.4)
+
+DEPENDENCIES:
+  - Reveal-iOS-SDK
+  - TTTAttributedLabel
+
+SPEC CHECKSUMS:
+  Reveal-iOS-SDK: f2525cb560a564fdc086316e89ec45ced6977fd3
+  TTTAttributedLabel: 617e14e3590a4afc9bc35dd999eb37e888996f36
+
+COCOAPODS: 0.29.0
