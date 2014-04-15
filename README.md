@@ -1,6 +1,6 @@
 DN
 ==
-Yet another Designer News mobile app.
+Yet another Designer News mobile app, initiated for the [Design+Code Giveway](https://news.layervault.com/stories/19416-designcode-giveaway).
 
 ## Requirements
 
@@ -12,9 +12,9 @@ Yet another Designer News mobile app.
 ## Build
 
 * Install dependencies 
-*   `pod install`
+   `pod install`
 * Clone repository
-*   `git clone git@github.com:hery/DN.git` 
+   `git clone git@github.com:hery/DN.git` 
 * Build and run in Xcode 
 
 ## Doc
